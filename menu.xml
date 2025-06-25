@@ -51,6 +51,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>TemplateViewRepeat</action>
             </menuitem>
+            <menuitem label='Página simples'>
+                <icon>fa:cube fa-fw</icon>
+                <action>SinglePageView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
