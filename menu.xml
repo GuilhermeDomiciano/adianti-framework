@@ -39,6 +39,14 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>TesteView#method=onEvento</action>
             </menuitem>
+            <menuitem label='Template Básico'>
+                <icon>fa:cube fa-fw</icon>
+                <action>TemplateViewBasico</action>
+            </menuitem>
+            <menuitem label='Template com Máscaras'>
+                <icon>fa:cube fa-fw</icon>
+                <action>TemplateViewMask</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
