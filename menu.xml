@@ -63,6 +63,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>OnDemandWindowView</action>
             </menuitem>
+            <menuitem label='Janela modal'>
+                <icon>fa:cube fa-fw</icon>
+                <action>ModalWindowView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
