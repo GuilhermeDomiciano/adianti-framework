@@ -67,6 +67,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>ModalWindowView</action>
             </menuitem>
+            <menuitem label='Cortina lateral'>
+                <icon>fa:cube fa-fw</icon>
+                <action>SidePageView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
