@@ -75,6 +75,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>EmbeddedPDFView</action>
             </menuitem>
+            <menuitem label='Tabelas'>
+                <icon>fa:cube fa-fw</icon>
+                <action>TableView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
