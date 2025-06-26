@@ -91,6 +91,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>NotebookView</action>
             </menuitem>
+            <menuitem label='Boxes'>
+                <icon>fa:cube fa-fw</icon>
+                <action>XBoxView</action>
+            </menuitem>
 
         </menu>
     </menuitem>
