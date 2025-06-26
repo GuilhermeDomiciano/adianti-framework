@@ -99,9 +99,13 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>InformationView</action>
             </menuitem>
-            <menuitem label='Dialogo de pergunta'>
+            <menuitem label='Diálogo de pergunta'>
                 <icon>fa:cube fa-fw</icon>
                 <action>QuestionView</action>
+            </menuitem>
+            <menuitem label='Diálogo de entrada'>
+                <icon>fa:cube fa-fw</icon>
+                <action>DialogInputView</action>
             </menuitem>
         </menu>
     </menuitem>
