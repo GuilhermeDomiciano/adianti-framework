@@ -8,7 +8,8 @@ class EmbeddedPDFView extends TPage{
         $object = new TElement('iframe');
         $object->width = '100%';
         $object->height = '600px';
-        $object->src = 'https://www.adianti.com.br/framework_files/adianti_framework.pdf';
-        parent::add(...);
+        $object->src = 'https://fswceulp.nyc3.cdn.digitaloceanspaces.com/portal/calendario-academico/calendario-academico-2025-2.pdf';
+        $object->type = 'application/pdf';
+        parent::add($object);
     }
 }

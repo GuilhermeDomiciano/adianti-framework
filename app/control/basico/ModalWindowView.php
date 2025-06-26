@@ -7,7 +7,7 @@ class ModalWindowView extends TWindow{
         parent::removeTitleBar();
         parent::disableEscape();
 
-        $html = new THtmlRenderer('app\resources\modal.html');
+        $html = new THtmlRenderer('app/resources/modal.html');
         $replaces = [];
         $replaces['title'] = 'Título';
         $replaces['body'] = 'Conteúdo';

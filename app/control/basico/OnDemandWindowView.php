@@ -4,7 +4,7 @@ class OnDemandWindowView extends TPage{
         parent::__construct();
         $window = TWindow::create('Título', 0.8, null);
 
-        $html = new THtmlRenderer('app\resources\page.html');
+        $html = new THtmlRenderer('app/resources/page.html');
         $replaces['title'] = 'Título';
         $replaces['body'] = 'Conteúdo';
         $replaces['footer'] = 'Rodapé';

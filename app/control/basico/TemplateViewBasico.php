@@ -1,14 +1,12 @@
 <?php
 
-use Adianti\Widget\Dialog\TMessage;
-use Adianti\Widget\Template\THtmlRenderer;
 class TemplateViewBasico extends TPage{
     public function __construct(){
         parent::__construct();
 
         
         try{
-            $html = new THtmlRenderer('app\resources\tamplate-basico.html');
+            $html = new THtmlRenderer('app/resources/tamplate-basico.html');
             
             $customer = new stdClass();
             $customer->id = 5;

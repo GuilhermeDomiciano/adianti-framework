@@ -4,7 +4,7 @@ class SidePageView extends TPage{
         parent::__construct();
 
         parent::setTargetContainer('adianti_right_panel');
-        $html = new THtmlRenderer('app\resources\side.html');
+        $html = new THtmlRenderer('app/resources/side.html');
         $replaces = [];
         $replaces['title'] = 'Título';
         $replaces['body'] = 'Conteúdo';

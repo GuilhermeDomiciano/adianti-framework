@@ -7,7 +7,7 @@ class SingleWindowView extends TWindow{
         // parent::removePadding();
         // parent::removeTitleBar();
 
-        $html = new THtmlRenderer('app\resources\page.html');
+        $html = new THtmlRenderer('app/resources/page.html');
         $replaces['title'] = 'Título';
         $replaces['body'] = 'Conteúdo';
         $replaces['footer'] = 'Rodapé';

@@ -4,7 +4,7 @@ class TemplateViewMask extends TPage{
         parent::__construct();
 
         try{
-            $html = new THtmlRenderer('app\resources\template_masks.html');
+            $html = new THtmlRenderer('app/resources/template_masks.html');
 
             $replace = [];
             $replace['date'] = date('Y-m-d');

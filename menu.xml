@@ -71,6 +71,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>SidePageView</action>
             </menuitem>
+            <menuitem label='Conteúdo embarcado'>
+                <icon>fa:cube fa-fw</icon>
+                <action>EmbeddedPDFView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>

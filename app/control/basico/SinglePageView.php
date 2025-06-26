@@ -7,7 +7,7 @@ class SinglePageView extends TPage{
         parent::__construct(); 
 
         try{
-            $html = new THtmlRenderer('app\resources\page.html');
+            $html = new THtmlRenderer('app/resources/page.html');
             $replaces = [];
             $replaces['title'] = 'Título';
             $replaces['body'] = 'Conteúdo';

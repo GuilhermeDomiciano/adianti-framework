@@ -4,7 +4,7 @@ class TemplateViewRepeat extends TPage{
         parent::__construct();
 
         try{
-            $html = new THtmlRenderer('app\resources\template-repeat.html');
+            $html = new THtmlRenderer('app/resources/template-repeat.html');
 
             $replace = [];
             $replace[] = ['id' => 1, 'nome'=> 'Guilherme', 'endereco' => 'Rua 1, 123'];
