@@ -95,7 +95,14 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>XBoxView</action>
             </menuitem>
-
+            <menuitem label='Dialogo de mensagem'>
+                <icon>fa:cube fa-fw</icon>
+                <action>InformationView</action>
+            </menuitem>
+            <menuitem label='Dialogo de pergunta'>
+                <icon>fa:cube fa-fw</icon>
+                <action>QuestionView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
