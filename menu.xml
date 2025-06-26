@@ -79,6 +79,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>TableView</action>
             </menuitem>
+            <menuitem label='Painel'>
+                <icon>fa:cube fa-fw</icon>
+                <action>PanelGroupView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
