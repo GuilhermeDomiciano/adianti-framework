@@ -1,0 +1,3 @@
+comando pra rodar o docker:
+
+docker run --name curso -e POSTGRES_PASSWORD=ulbra2023fabrica -p 5432:5432 -v ./schema.sql:/docker-entrypoint-initdb.d/schema.sql -d postgres:latest
