@@ -109,4 +109,17 @@
             </menuitem>
         </menu>
     </menuitem>
+    <menuitem label='Banco de Dados'>
+        <icon>fa:cog fa-fw</icon>
+        <menu>
+            <menuitem label='Conexão manual'>
+                <icon>fa:cube fa-fw</icon>
+                <action>ConexaoManual</action>
+            </menuitem>
+            <menuitem label='Conexão Prepare'>
+                <icon>fa:code fa-fw</icon>
+                <action>ConexaoPrepare</action>
+            </menuitem>
+        </menu>
+    </menuitem>
 </menu>

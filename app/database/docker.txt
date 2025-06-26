@@ -1,3 +1,36 @@
 comando pra rodar o docker:
 
 docker run --name curso -e POSTGRES_PASSWORD=ulbra2023fabrica -p 5432:5432 -v ./schema.sql:/docker-entrypoint-initdb.d/schema.sql -d postgres:latest
+
+O PHP usa uma camada chamada PDO (PHP Data Objects) para se conectar a diferentes bancos de dados. Para cada tipo de banco de dados (MySQL, PostgreSQL, SQLite, etc.), existe um "driver" PDO específico. O erro "could not find driver" significa que o PHP não conseguiu carregar o driver necessário para se comunicar com o PostgreSQL (pgsql).
+
+Como Resolver
+Você precisa habilitar a extensão pdo_pgsql no seu arquivo php.ini.
+
+Localize seu arquivo php.ini:
+
+Se você usa XAMPP (como indicado no seu primeiro comando PS C:\xampp\htdocs\curso), o php.ini geralmente fica em C:\xampp\php\php.ini.
+
+Se você estiver usando outra instalação do PHP, a localização pode variar. Você pode criar um arquivo PHP com phpinfo(); dentro e acessar ele no navegador para ver o caminho do php.ini.
+
+Edite o php.ini:
+
+Abra o php.ini com um editor de texto (como Notepad++, VS Code, Sublime Text, etc.).
+
+Procure por linhas que começam com ;extension=pdo_pgsql. O ponto e vírgula ; no início da linha significa que a linha está comentada (desabilitada).
+
+Descomente a linha:
+
+Remova o ponto e vírgula ; do início da linha:
+
+Ini, TOML
+
+;extension=pdo_pgsql
+Mude para:
+
+Ini, TOML
+
+extension=pdo_pgsql
+(Opcional, mas boa prática) Verifique e descomente também a linha extension=pgsql se ela estiver comentada. Embora o PDO_PGSQL seja o mais importante aqui, pgsql é a extensão nativa do PostgreSQL e pode ser útil para outras funções.
+
+Salve o arquivo php.ini.
