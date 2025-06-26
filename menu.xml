@@ -37,7 +37,7 @@
         <menu>
             <menuitem label='Teste'>
                 <icon>fa:cube fa-fw</icon>
-                <action>TesteView#method=onEvento</action>
+                <action>TesteView</action>
             </menuitem>
             <menuitem label='Template básico'>
                 <icon>fa:cube fa-fw</icon>
@@ -87,6 +87,11 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>ScrollView</action>
             </menuitem>
+            <menuitem label='Notebook'>
+                <icon>fa:cube fa-fw</icon>
+                <action>NotebookView</action>
+            </menuitem>
+
         </menu>
     </menuitem>
 </menu>
