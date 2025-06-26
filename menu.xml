@@ -83,6 +83,10 @@
                 <icon>fa:cube fa-fw</icon>
                 <action>PanelGroupView</action>
             </menuitem>
+            <menuitem label='Scroll'>
+                <icon>fa:cube fa-fw</icon>
+                <action>ScrollView</action>
+            </menuitem>
         </menu>
     </menuitem>
 </menu>
