@@ -1,4 +1,10 @@
 <?php
+
+use Adianti\Control\TAction;
+use Adianti\Control\TPage;
+use Adianti\Widget\Form\TEntry;
+use Adianti\Widget\Form\TModalForm;
+
 class ModalForm extends TPage
 {
     private $form;

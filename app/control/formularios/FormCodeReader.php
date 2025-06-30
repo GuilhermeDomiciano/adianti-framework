@@ -1,4 +1,13 @@
 <?php
+
+use Adianti\Control\TAction;
+use Adianti\Control\TPage;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Widget\Form\TBarCodeInputReader;
+use Adianti\Widget\Form\TLabel;
+use Adianti\Widget\Form\TQRCodeInputReader;
+use Adianti\Wrapper\BootstrapFormBuilder;
+
 class FormCodeReader extends TPage
 {
     private $form;

@@ -1,4 +1,13 @@
 <?php
+
+use Adianti\Control\TAction;
+use Adianti\Control\TPage;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Widget\Form\TImageCapture;
+use Adianti\Widget\Form\TImageCropper;
+use Adianti\Widget\Form\TLabel;
+use Adianti\Wrapper\BootstrapFormBuilder;
+
 class FormImageUploader extends TPage
 {
     private $form;

@@ -1,4 +1,19 @@
 <?php
+
+use Adianti\Control\TAction;
+use Adianti\Control\TPage;
+use Adianti\Validator\TEmailValidator;
+use Adianti\Validator\TMaxLengthValidator;
+use Adianti\Validator\TMaxValueValidator;
+use Adianti\Validator\TMinLengthValidator;
+use Adianti\Validator\TMinValueValidator;
+use Adianti\Validator\TNumericValidator;
+use Adianti\Validator\TRequiredValidator;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Widget\Form\TEntry;
+use Adianti\Widget\Form\TLabel;
+use Adianti\Wrapper\BootstrapFormBuilder;
+
 class FormularioValidacoes extends TPage
 {
     private $form;

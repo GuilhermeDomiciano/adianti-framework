@@ -1,4 +1,12 @@
 <?php
+
+use Adianti\Control\TAction;
+use Adianti\Control\TPage;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Widget\Form\TEntry;
+use Adianti\Widget\Form\TLabel;
+use Adianti\Wrapper\BootstrapFormBuilder;
+
 class FormularioMascaras extends TPage
 {
     public function __construct()

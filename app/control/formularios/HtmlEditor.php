@@ -1,4 +1,11 @@
 <?php
+
+use Adianti\Control\TAction;
+use Adianti\Control\TPage;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Widget\Form\THtmlEditor;
+use Adianti\Wrapper\BootstrapFormBuilder;
+
 class HtmlEditor extends TPage
 {
     public function __construct()
