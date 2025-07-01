@@ -1,4 +1,9 @@
 <?php
+use Adianti\Control\TPage;
+use Adianti\Widget\Container\TPanelGroup;
+use Adianti\Widget\Datagrid\TDataGrid;
+use Adianti\Widget\Datagrid\TDataGridColumn;
+use Adianti\Wrapper\BootstrapDatagridWrapper;
 class DatagridCalculos extends TPage
 {
     private $datagrid;
