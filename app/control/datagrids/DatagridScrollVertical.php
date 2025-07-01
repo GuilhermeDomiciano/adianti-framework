@@ -1,4 +1,13 @@
 <?php
+
+use Adianti\Control\TPage;
+use Adianti\Widget\Container\TPanelGroup;
+use Adianti\Widget\Datagrid\TDataGrid;
+use Adianti\Widget\Datagrid\TDataGridAction;
+use Adianti\Widget\Datagrid\TDataGridColumn;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Wrapper\BootstrapDatagridWrapper;
+
 class DatagridScrollVertical extends TPage
 {
     private $datagrid;
@@ -9,7 +18,7 @@ class DatagridScrollVertical extends TPage
         
         $this->datagrid = new BootstrapDatagridWrapper(new TDataGrid);
         $this->datagrid->width = '100%';
-        //$this->datagrid->enablePopover('Detalhes', '<b>ID</b> {id} <br> <b>Nome</b> {nome} <br> <b>Cidade</b> {cidade} <br> <b> Estado</b> {estado} <br> <b>País</b> {pais}');
+        // $this->datagrid->enablePopover('Detalhes', '<b>ID</b> {id} <br> <b>Nome</b> {nome} <br> <b>Cidade</b> {cidade} <br> <b> Estado</b> {estado} <br> <b>País</b> {pais}');
         
         $this->datagrid->setHeight(300);
         $this->datagrid->makeScrollable();

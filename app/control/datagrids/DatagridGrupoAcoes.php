@@ -1,4 +1,12 @@
 <?php
+use Adianti\Control\TPage;
+use Adianti\Widget\Container\TPanelGroup;
+use Adianti\Widget\Datagrid\TDataGrid;
+use Adianti\Widget\Datagrid\TDataGridAction;
+use Adianti\Widget\Datagrid\TDataGridActionGroup;
+use Adianti\Widget\Datagrid\TDataGridColumn;
+use Adianti\Widget\Dialog\TMessage;
+use Adianti\Wrapper\BootstrapDatagridWrapper;
 class DatagridGrupoAcoes extends TPage
 {
     private $datagrid;
@@ -28,13 +36,13 @@ class DatagridGrupoAcoes extends TPage
         $action2 = new TDataGridAction( [$this, 'onDelete'], ['id' => '{id}', 'nome' => '{nome}' ] );
         $action3 = new TDataGridAction( [$this, 'onPrint'],  ['id' => '{id}', 'nome' => '{nome}' ] );
         
-        $action1->setLabel('Visualiza');
+        $action1->setLabel('Visualizar');
         $action1->setImage('fa:search blue');
         
-        $action2->setLabel('Exclui');
+        $action2->setLabel('Excluir');
         $action2->setImage('fa:trash red');
         
-        $action3->setLabel('Imprime');
+        $action3->setLabel('Imprimir');
         $action3->setImage('fa:print green');
         
         $action_group = new TDataGridActionGroup('Ações', 'fa:th');
